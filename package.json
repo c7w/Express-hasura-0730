@@ -1,0 +1,16 @@
+{
+  "name": "hasura_demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "graphql": "^15.5.1",
+    "graphql-request": "^3.4.0",
+    "nodemon": "^2.0.12"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  }
+}
